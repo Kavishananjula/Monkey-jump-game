@@ -1,0 +1,6 @@
+export * from './birds/Birds'
+export * from './bricks/Bricks'
+export * from './clouds/Clouds'
+export * from './keyMessages/KeyMessages'
+export * from './obstacles/Obstacles'
+export * from './sun/Sun'

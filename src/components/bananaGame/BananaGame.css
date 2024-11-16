@@ -1,0 +1,51 @@
+.banana-game {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* justify-content: center; */
+  /* position: absolute; */
+  /* z-index: 50; */
+  left: 1rem;
+  right: 1rem;
+  bottom: 5rem; 
+  height: 100vh;
+  background-image: url("/src/assets/img/bananaBg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.banana-game img {
+  max-width: 1280px;
+  width: auto;
+  height: 40vh;
+  
+
+}
+
+/* .banana-game h2 {
+  padding-block: 20px;
+  text-align: center;
+  z-index: 5000;
+}
+
+.banana-game input {
+  font-size: larger;
+  width: 50px;
+  margin: auto;
+} */
+
+.banana-game button {
+  margin-top: 10px;
+  width: 200px;
+  margin-inline: auto;
+  font-size: 2rem;
+    text-align: center;
+    padding: 0.5rem 2rem;
+    background-color: #fb0000;
+    color: #2D2D2D;
+    border-radius: 0.2rem;
+    border: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    cursor: pointer;
+}

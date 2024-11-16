@@ -1,0 +1,60 @@
+.monkey {
+    width: 10em;
+    height: auto;
+    position: absolute;
+    bottom: 10.4vh;
+    left: 40px;
+}
+
+.jump {
+    animation-name: jumping;
+    animation-timing-function: ease-out;
+    animation-duration: 0.9s;
+}
+
+@keyframes jumping {
+    0% {
+        transform: translateY(-15vh);
+    }
+}
+
+/* Mario Die */
+.die {
+    animation-name: die-animation;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+}
+
+@keyframes die-animation {
+    25% {
+        bottom: 18vh;
+        left: -2vh;
+    }
+    100% {
+        bottom: -20vh;
+        left: -1vh;
+    }
+}
+
+/* Media Queries */
+/* @media (max-width: 1280px) {
+    .monkey {
+    width: 4rem;
+    bottom: 100px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .monkey {
+        width: 3rem;
+        bottom: 60px;
+    }
+}
+
+@media (max-width: 640px) {
+    .monkey {
+        width: 2rem;
+        left: 20px;
+        bottom: 60px;
+    }
+} */
